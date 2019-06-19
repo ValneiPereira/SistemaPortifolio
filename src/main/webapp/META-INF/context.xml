@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/financeiro" reloadable="true">
+  <Resource auth="Container" 
+  driverClassName="org.postgresql.Driver" 
+  maxActive="100" 
+  maxIdle="30" 
+  maxWait="10000" 
+  name="jdbc/FinanceiroDB"
+  username="postgres" 
+  password="root" 
+  type="javax.sql.DataSource" 
+  url= "jdbc:postgresql://localhost/financeiro?autoReconnect=true"/>  
+</Context>
